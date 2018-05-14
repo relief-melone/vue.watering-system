@@ -1,0 +1,21 @@
+@import "https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css";
+@import "https://cdn.jsdelivr.net/npm/animate.css@3.5.1";
+
+.form-group{
+    display: inline-block;
+    padding: 20px
+}
+.form-pumps input[type="checkbox"] {
+    zoom: 2;
+}
+.pump{
+    vertical-align: top;
+    width: 150px;
+}
+.container{
+    min-width: 700px;
+}
+.form-pumps button{
+    display:block;
+    margin: 10px auto;
+}

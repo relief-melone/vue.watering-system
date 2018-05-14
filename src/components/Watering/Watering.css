@@ -1,0 +1,19 @@
+.container button{
+    margin: 0px auto;
+}
+.container {
+    align-content: center
+}
+.form{
+    margin: 0px auto;
+    align-content: center;
+}
+.container h1{
+    display: inline-block;
+    margin: 0px auto;
+    width: 100%
+}
+.form-watering button{
+    display:block;
+    margin: 10px auto;
+}
