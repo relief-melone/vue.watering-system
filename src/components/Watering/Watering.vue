@@ -2,7 +2,7 @@
     <div class="container">
         <h1>Bewässerung aktivieren</h1>
 
-    <form @submit.prevent="" class="form-watering">
+    <form class="form-watering">
         <button class="btn btn-primary" v-if="!WateringInitialized" v-on:click="initWatering">Bewässerung aktivieren</button>
         <button class="btn btn-success" v-if="WateringInitialized" v-on:click="turnOffWatering">Bewässerung aussschalten</button><br>
 
